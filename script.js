@@ -13,7 +13,7 @@ const APP = {
 
     version: "1.0.5",
 
-    apk: "apk/FlujIng_V105.apk",
+    apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.5/FlujIng_V105.apk",
 
     androidMinimo: "Android 8.0",
 
@@ -161,7 +161,7 @@ const footer = document.querySelector("footer p");
 
 if (footer) {
 
-    footer.innerHTML = `Ingeniería Electrónica<br>© ${año} FlujIng`;
+    footer.innerHTML = `Ingeniero Electrónico<br>© ${año} FlujIng`;
 
 }
 
