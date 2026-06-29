@@ -183,13 +183,12 @@ body {
 }
 
 .version {
-
-    margin-top: 18px;
-
-    font-size: .95rem;
-
-    opacity: .9;
-
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    display: block;
+    font-weight: bold;
 }
 
 
