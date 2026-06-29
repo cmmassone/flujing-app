@@ -143,22 +143,15 @@ body {
 .download-btn {
 
     display: inline-flex;
-
     align-items: center;
-
-    gap: 12px;
+    gap: 18px;
 
     background: var(--amarillo);
-
     color: #222;
 
-    padding: 18px 42px;
+    padding: 16px 36px;
 
     border-radius: 60px;
-
-    font-size: 1.15rem;
-
-    font-weight: 600;
 
     text-decoration: none;
 
@@ -178,18 +171,62 @@ body {
 
 .download-btn i {
 
-    font-size: 1.5rem;
+    font-size: 30px;
 
 }
 
-.version {
-    margin-top: 10px;
-    font-size: 14px;
-    color: red;
+.btn-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+
+}
+
+.btn-text {
+
+    font-size: 1.15rem;
+    font-weight: 700;
     text-align: center;
-    display: block;
-    font-weight: bold;
+    width: 100%;
+
 }
+
+.btn-version {
+
+    margin-top: 3px;
+    font-size: .78rem;
+    font-weight: 600;
+    color: #6b5200;
+    opacity: .85;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    width: 90%;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn-descargar {
+    padding: 12px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
 
 
 /*================ EQUIPO =================*/
@@ -508,12 +545,6 @@ footer p {
         padding: 16px 28px;
 
         font-size: 1rem;
-
-    }
-
-    .card {
-
-        min-height: 310px;
 
     }
 

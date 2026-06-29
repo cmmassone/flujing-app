@@ -37,37 +37,33 @@ const APP = {
 document.addEventListener("DOMContentLoaded", () => {
 
     // Versión
-
     const version = document.getElementById("version");
 
     if (version) {
-
         version.textContent = APP.version;
+    }
 
+    // Versión dentro del botón
+    const btnVersion = document.getElementById("btnVersion");
+
+    if (btnVersion) {
+        btnVersion.textContent = APP.version;
     }
 
     // Botón APK
-
     const apk = document.getElementById("apk");
 
     if (apk) {
-
         apk.href = APP.apk;
-
     }
 
     // Videos
-
     const botones = document.querySelectorAll(".card-btn");
 
     if (botones.length >= 4) {
-
         botones[0].href = APP.videos.instalacion;
-
         botones[1].href = APP.videos.equipo;
-
         botones[2].href = APP.videos.app;
-
     }
 
 });
