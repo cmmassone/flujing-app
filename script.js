@@ -11,9 +11,9 @@ const APP = {
 
     nombre: "FlujIng",
 
-    version: "1.0.5",
+    version: "1.0.6",
 
-    apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.5/FlujIng_V105.apk",
+    apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.5/FlujIng_V106.apk",
 
     androidMinimo: "Android 8.0",
 
