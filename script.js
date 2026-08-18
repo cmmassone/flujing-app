@@ -19,11 +19,11 @@ const APP = {
 
     videos: {
 
-        instalacion: "#",
+        instalacion: "https://youtu.be/Gu5RqQg01Dc",
 
-        equipo: "#",
+        conexion: "https://youtu.be/Y0E3U7Y6C8Q",
 
-        app: "#"
+        estudio: "#"
 
     }
 
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (botones.length >= 4) {
         botones[0].href = APP.videos.instalacion;
-        botones[1].href = APP.videos.equipo;
-        botones[2].href = APP.videos.app;
+        botones[1].href = APP.videos.conexion;
+        botones[2].href = APP.videos.estudio;
     }
 
 });
