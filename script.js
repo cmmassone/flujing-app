@@ -23,7 +23,7 @@ const APP = {
 
         conexion: "https://youtu.be/Y0E3U7Y6C8Q",
 
-        estudio: "#"
+        estudio: "https://youtu.be/qUWT5K35UbQ"
 
     }
 
