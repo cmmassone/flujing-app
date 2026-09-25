@@ -13,7 +13,7 @@ const APP = {
 
     version: "1.0.6",
 
-    apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.6/FlujIng_V106.apk",
+    apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.7/FlujIng_V107.apk",
 
     androidMinimo: "Android 8.0",
 
