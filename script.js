@@ -11,7 +11,7 @@ const APP = {
 
     nombre: "FlujIng",
 
-    version: "1.0.6",
+    version: "1.0.7",
 
     apk: "https://github.com/cmmassone/flujing-app/releases/download/v1.0.7/FlujIng_V107.apk",
 
